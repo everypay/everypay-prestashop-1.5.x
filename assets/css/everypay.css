@@ -1,0 +1,121 @@
+#everypay-payment-form > p >*:first-child,
+#select_everypay_saved_card > p >*:first-child
+{
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 15px;
+    text-align: right;
+    width: 173px;
+    color:#000000;
+}
+
+#everypay-payment-form sup{
+    color:#990000;
+}
+
+#everypay-payment-form input[type="text"]{
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    height: 22px;
+    padding: 0 5px;
+    width: 360px;
+}
+
+#everypay-payment-form select,
+#select_everypay_saved_card select
+{
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    height: 22px;
+    padding: 0;
+    width: 75px; 
+    margin-right: 10px;
+}
+
+.everypayform__standalone_wrapper form input[type="text"]{
+    width:200px !important;
+}
+.everypayform__standalone_wrapper form > p >*:first-child{
+    width:134px !important;
+}
+.everypayform__standalone_wrapper #select_everypay_saved_card select{}
+.everypayform__standalone_wrapper select{}
+
+#select_everypay_saved_card select{
+    width:200px;
+}
+
+.submit-everypay {
+    display: inline-block;
+    text-align: center;
+}
+
+.submit-everypay p label{
+    color: #444444;
+    font-size: 12px;
+    padding-right: 3px;
+    text-align: right;
+    width: auto ;
+}
+.submit-everypay p{
+    display: inline-block;
+    float: left;
+    margin-right: 10px !important;
+    max-width: 496px;
+    padding: 0;
+    text-align: right;
+}
+.submit-everypay > input{
+        float: right;
+    margin: 0 auto;
+}
+
+#everypay-payment-form .form-error{
+    color:#990000;
+    margin-bottom: 13px;
+}
+
+#everypay-payment-form{
+    margin-bottom:10px;
+}
+
+[class^="everypay_selection_wrapper_"], [class*=" everypay_selection_wrapper_"]{
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid silver;
+    border-radius: 1px 1px 1px 1px;
+    margin: 10px 0;
+    padding: 19px;
+}
+
+#everypay_confirmation_wrapper form .price{
+    background: #FFFFFF;
+    border: 1px solid silver;
+    border-radius: 3px;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 2px;
+    padding: 3px 7px;
+} 
+
+[class^="everypay_selection_wrapper_"] .cart_navigation, [class*=" everypay_selection_wrapper_"] .cart_navigation{
+    margin: 45px 0 0;
+    padding-bottom: 0;
+}
+
+.ev_order_details li{    
+    font-size: 1.3em;
+    line-height: 1.5em;    
+    margin-left: 3em;
+}
+
+#module-everypaypayments-confirm #center_column,
+#module-everypaypayments-account #center_column{width:757px;}
+
+.ev_order_details li span{font-weight:bold;}
+
+.everypay_cardway_selection label{margin:0 18px 0 3px;}
+
+

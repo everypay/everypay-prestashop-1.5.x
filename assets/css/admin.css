@@ -1,0 +1,44 @@
+/* resetters of already css */
+.toolbarBox {}
+/* resetters of already css */
+.everypay_container{}
+.everypay_container .admin_logo{
+    background: url("../images/loogorfulll1.png") no-repeat scroll 10px 20px black;
+    height: 44px;
+    padding-left: 230px;
+    padding-top: 117px;
+
+}
+.everypay_container .admin_logo p{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.menu_admin{
+    display: inline-block;
+    margin: 2%;
+    width: 96%;
+
+}
+.menu_admin ul{}
+.menu_admin ul li{
+    float: left;
+    margin: 0 3px;
+}
+.menu_admin ul li a{}
+.menu_admin .text_li_label{
+        margin-left: 65px;
+}
+
+
+.ev_settings input[type="text"],
+.ev_settings textarea,
+.ev_settings select
+{
+    margin-bottom: 9px;
+    width: 290px;
+}
+.everypay_container .alert{
+    margin:10px 0 !important;
+}
+
